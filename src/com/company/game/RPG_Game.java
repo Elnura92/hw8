@@ -8,7 +8,8 @@ public class RPG_Game {
         Hunter hunter = new Hunter(260, 10);
         Medic medic = new Medic(230, 10, 25);
         Magic magic = new Magic(270, 20);
-        Hero[] heroes = {warrior, hunter, medic, magic};
+        Golem golem = new Golem(350, 30);
+        Hero[] heroes = {warrior, hunter, medic, magic, golem};
 
 
 

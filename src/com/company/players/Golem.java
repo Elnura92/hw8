@@ -1,9 +1,10 @@
 package com.company.players;
 
 public class Golem extends Hero {
-    public Golem(int health, int damage, SuperAbility superAbility) {
-        super(health, damage, superAbility);
+    public Golem(int health, int damage) {
+        super(health, damage, SuperAbility.RETURN_DAMAGE);
     }
+
 
     @Override
     public void applySuperAbility(Boss boss, Hero[] heroes) {
